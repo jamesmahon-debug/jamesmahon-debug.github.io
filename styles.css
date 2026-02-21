@@ -1,11 +1,12 @@
 :root {
-    --dark-bg: #f0f4f8;
+    --dark-bg: #f5f5f5;
     --card-bg: #ffffff;
-    --accent: #1e3a8a;
-    --accent-light: #2563eb;
-    --text-main: #1e293b;
-    --text-muted: #64748b;
-    --section-bg: #dbeafe;
+    --accent: #374151;
+    --accent-light: #6b7280;
+    --accent-dark: #353940;
+    --text-main: #1f2937;
+    --text-muted: #9ca3af;
+    --section-bg: #e5e7eb;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -54,7 +55,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: var(--accent-light);
+    background: var(--accent-dark);
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
